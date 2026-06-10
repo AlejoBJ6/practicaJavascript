@@ -2,4 +2,5 @@
 
 const costoTotal = parseFloat(prompt("Ingrese el costo total de la cena:"))
 const cantidadPersona = parseFloat(prompt("Ingrese la cantidad de personas:"))
-const costoPorPersona = costoTotal / cantidadPersona
+const costoPorPersona = costoTotal / cantidadPersona 
+console.log("La cantidad a pagar por peresona es: "+ costoPorPersona + "$")
